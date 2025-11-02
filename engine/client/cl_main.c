@@ -24,7 +24,6 @@ GNU General Public License for more details.
 #include "vid_common.h"
 #include "pm_local.h"
 #include "multi_emulator.h"
-#include <uuid/uuid.h>
 
 
 #define MAX_CMD_BUFFER        8000
@@ -32,7 +31,6 @@ GNU General Public License for more details.
 #define CL_CONNECTION_RETRIES 10
 #define CL_TEST_RETRIES       5
 
-char client_uuid[64];
 
 CVAR_DEFINE_AUTO( showpause, "1", 0, "show pause logo when paused" );
 CVAR_DEFINE_AUTO( mp_decals, "300", FCVAR_ARCHIVE, "decals limit in multiplayer" );
